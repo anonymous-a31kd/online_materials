@@ -11,7 +11,7 @@ This page provides additional figures and results for the paper under anonymous 
 
 ## Additional Figures
 
-### Figure A1: Number of bugs found in different javadoc length ranges
+### Figure A1: Number of bugs found under different javadoc length intervals
 ![Figure A1](figures/bug_found.png)
 
 ### Figure A2: Precision of methods under different javadoc length intervals
