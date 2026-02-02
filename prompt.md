@@ -141,7 +141,8 @@ Focal method and javadoc comments:
 ```` markdown
 Now there is a judgment task.
 # Task
-Now there are two versions of complete test cases generated with the same test prefix. Please determine if the Oracles of these two test cases are semantically equivalent. 
+Now there are two versions of complete test cases generated with the same test prefix.
+Please determine if the Oracles of these two test cases are semantically equivalent. 
 
 # Requirements
 If the Oracles are equivalent, please return Yes.
