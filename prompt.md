@@ -10,7 +10,7 @@ This page lists the prompts used in our experiments under anonymous review.
 ---
 
 ## Prompt 1: Scenario Inference Prompt
-
+```
 # Role
 You are an expert in software testing. 
 # Task
@@ -42,5 +42,5 @@ The answer should include the test scenario and category in plaintext block, suc
 Test scenario:
 Category: 
 ```
-
+```
 
