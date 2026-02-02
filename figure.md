@@ -3,6 +3,8 @@ layout: default
 title: "Additional Figures: Impact of JavaDoc Length"
 ---
 
+[← Back to main page](index.md)
+
 # Additional Figures  
 ## How the Length of JavaDoc Comments Influences the Performance of the Evaluated Approaches
 
