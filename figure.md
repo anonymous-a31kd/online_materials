@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Additional Figures: Impact of JavaDoc Length
+title: "Additional Figures: Impact of JavaDoc Length"
 ---
 
 # Additional Figures  
