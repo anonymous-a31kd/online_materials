@@ -3,6 +3,8 @@ layout: default
 title: Prompts Used in Experiments
 ---
 
+[← Back to main page](index.md)
+
 # Prompts Used in Experiments
 
 This page lists the prompts used in our experiments under anonymous review.
@@ -165,3 +167,5 @@ TestCase_2:
 ````
 [↑ Back to Contents](#contents)
 ---
+
+[← Back to main page](index.md)
