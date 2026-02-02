@@ -3,10 +3,16 @@
 <head>
   <meta charset="utf-8">
   <title>{{ page.title }}</title>
+
+  <!-- Main style -->
+  <link rel="stylesheet" href="{{ '/assets/style.css' | relative_url }}">
 </head>
 <body>
-  {{ content }}
+  <div class="page-content">
+    {{ content }}
+  </div>
 
+  <!-- Copy button script -->
   <script src="{{ '/assets/copy.js' | relative_url }}"></script>
 </body>
 </html>
