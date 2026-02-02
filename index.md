@@ -5,19 +5,20 @@ title: Anonymous Supplementary Material
 
 # Supplementary Material
 
-This page provides additional figures and results for the paper under anonymous review.
+This website provides supplementary materials for the paper under anonymous review.
+
+Please select one of the following sections:
 
 ---
 
-## Additional Figures
+## 📂 Available Sections
 
-### Figure A1: Number of bugs found under different javadoc length intervals
-![Figure A1](figures/bug_found.png)
+- 📄 **[Prompts Used in Experiments](prompt.md)**  
+  Detailed list of all prompts used in our experimental pipeline.
 
-### Figure A2: Precision of methods under different javadoc length intervals
-![Figure A2](figures/precision.png)
-
+- 📊 **[Additional Figures: Impact of JavaDoc Length](figure.md)**  
+  Analysis of how the length of JavaDoc comments influences the performance of the evaluated approaches.
 
 ---
 
-*This page will be updated with the official repository upon acceptance.*
+> All materials are provided for reproducibility under anonymous review.
