@@ -53,7 +53,7 @@ Test scenario:
 Category: 
 ```
 ````
-[↑ Back to Contents](#-contents)
+[↑ Back to Contents](#contents)
 ---
 
 ## Prompt 2: Assertion Generation Prompt
@@ -91,7 +91,7 @@ Focal method and javadoc comments:
 Context of the under test class:
 {context}
 ````
-[↑ Back to Contents](#-contents)
+[↑ Back to Contents](#contents)
 ---
 
 ## Prompt 3: Exception Inference Prompt
@@ -134,7 +134,7 @@ Focal method and javadoc comments:
 {javadoc}
 {focal_method}
 ````
-[↑ Back to Contents](#-contents)
+[↑ Back to Contents](#contents)
 ---
 
 ## Prompt 4: Vote oracle Prompt
@@ -162,5 +162,5 @@ TestCase_1:
 TestCase_2:
 {test_case_2}
 ````
-[↑ Back to Contents](#-contents)
+[↑ Back to Contents](#contents)
 ---
