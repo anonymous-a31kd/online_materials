@@ -17,6 +17,7 @@ This page lists the prompts used in our experiments under anonymous review.
 - [Prompt 2: Assertion Generation Prompt](#prompt-2-assertion-generation-prompt)
 - [Prompt 3: Exception Inference Prompt](#prompt-3-exception-inference-prompt)
 - [Prompt 4: Vote Oracle Prompt](#prompt-4-vote-oracle-prompt)
+- [Prompt 5: Baseline(LLM-Direct) Prompt](#prompt-5-baselinellm_direct-prompt)
 
 ---
 
@@ -168,4 +169,38 @@ TestCase_2:
 [↑ Back to Contents](#contents)
 ---
 
+## Prompt 5: Baseline(LLM_Direct) Prompt
+```` markdown
+# Role
+You are now an Oracle generation expert.
+# Task
+Based on the give test prefix, the focal method (with Javadoc if available), and class context, generate an Oracle for the test prefix that exposes potential bugs in the focal method.
+The generated Oracle mainly falls into two categories: assert statements or expected exception(@Test(expected=Expection.class)).
+Attention : If you need to generate an assert statement, it's best to generate only one assert statement for the test prefix, if needed, multiple assert statements can also be generated.
+
+# Requirement:
+Keep the structure of the test prefix unchanged and follow the format of JUnit4. JDK version 8. 
+
+# Output
+Return the test case with the test prefix completed, enclosed in a Java block, such as:
+```java
+@Test
+public void test_xx_x() throws Exception {{
+// Complete test case
+}}
+```
+
+# Contextual Information
+Test Prefix:
+{test_prefix}
+
+Focal method and javadoc comments:
+{javadoc}
+{method_signature}
+
+Context of the under test class:
+{context}
+````
+[↑ Back to Contents](#contents)
+---
 [← Back to main page](index.md)
