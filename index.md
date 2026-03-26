@@ -18,6 +18,9 @@ Please select one of the following sections:
 - 📊 **[Additional Figures: Impact of JavaDoc Length](figure.md)**  
   Analysis of how the length of JavaDoc comments influences the performance of the evaluated approaches.
 
+- 📄 **[Online Materials for Rebuttal](OracleType.md)**
+  This document provides supplementary tables and examples referenced in the rebuttal.
+  
 ---
 
 > All materials are provided for reproducibility under anonymous review.
