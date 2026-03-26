@@ -59,14 +59,16 @@ To answer Reviewer A’s question, we compare:
 (b) keeping the same LLM-generated prefixes but regenerating only the oracle with DeepOracle.
 
 Defects4J
+
 | Method                 | TP   | FP   | FPR    | Precision | BugFound |
-| ---------------------- | ---- | ---- | ------ | --------- | -------- |
+| ---------------------- | :--: | :--: | :----: | :-------: | :------: |
 | (a) LLM Gen Whole Test | 85   | 392  | 16.48% | 17.82%    | 54       |
 | (b) LLM + DeepOracle   | 99   | 390  | 16.35% | 20.25%    | 61       |
 
 GrowingBugs
+
 | Method                 | TP   | FP   | FPR    | Precision | BugFound |
-| ---------------------- | ---- | ---- | ------ | --------- | -------- |
+| ---------------------- | :--: | :--: | :----: | :-------: | :------: |
 | (a) LLM Gen Whole Test | 1    | 34   | 18.09% | 2.86%     | 1        |
 | (b) LLM + DeepOracle   | 4    | 36   | 19.35% | 10.00%    | 2        |
 
