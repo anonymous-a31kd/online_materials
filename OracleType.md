@@ -22,13 +22,13 @@ The remaining rows show the distribution of **bug-detecting** oracles generated 
 Numbers outside parentheses are **bugs found**, while numbers inside parentheses are **TP**  test cases.
 
 
-| Method           | Assertions | Expected Exceptions | Unexpected Exceptions |  Total   |
-| ---------------- | :--------: | :-----------------: | :-------------------: | :------: |
-| Overall in RQ1-1 |  61(159)   |       35(162)       |        33(44)         | 124(365) |
-| TOGA             |  15 (22)   |       9 (13)        |        29 (39)        | 51 (74)  |
-| TOGLL            |  19 (51)   |        0 (0)        |         0 (0)         | 19 (51)  |
-| LLM-Direct       |  18 (38)   |        7 (8)        |        22 (28)        | 46 (77)  |
-| DeepOracle       |  22 (36)   |       13 (19)       |        28 (36)        | 61 (91)  |
+| Method                 | Assertions | Expected Exceptions | Unexpected Exceptions |  Total   |
+| ---------------------- | :--------: | :-----------------: | :-------------------: | :------: |
+| Dataset used for RQ1-1 |  61(159)   |       35(162)       |        33(44)         | 124(365) |
+| TOGA                   |  15 (22)   |       9 (13)        |        29 (39)        | 51 (74)  |
+| TOGLL                  |  19 (51)   |        0 (0)        |         0 (0)         | 19 (51)  |
+| LLM-Direct             |  18 (38)   |        7 (8)        |        22 (28)        | 46 (77)  |
+| DeepOracle             |  22 (36)   |       13 (19)       |        28 (36)        | 61 (91)  |
 
 These results show that DeepOracle’s advantage is **not limited to one oracle form**; it improves over baselines across all three categories, especially on **assertions** and **expected exceptions**. 
 
