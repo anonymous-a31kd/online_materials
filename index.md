@@ -21,6 +21,9 @@ Please select one of the following sections:
 - 📄 **[Online Materials for Rebuttal](OracleType.md)**  
   This document provides supplementary tables and examples referenced in the rebuttal.
   
+- 💡 **[Defect localization and patch generation attempt](ExampleTest.md)**  
+  
+  
 ---
 
 > All materials are provided for reproducibility under anonymous review.
