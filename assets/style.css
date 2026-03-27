@@ -63,6 +63,28 @@ code {
   font-size: 0.95em;
 }
 
-table { border-collapse: collapse; border: 1px solid #d0d7de; }
-th, td { border: 1px solid #d0d7de; padding: 10px 14px; }
-thead { background: #f6f8fa; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: #fff;
+  border: 1px solid #d0d7de;
+}
+
+thead {
+  background: #f6f8fa;
+}
+
+th,
+td {
+  border: 1px solid #d0d7de;
+  padding: 10px 14px;
+}
+
+th {
+  font-weight: 600;
+}
+
+tbody tr:nth-child(even) {
+  background: #fbfdff;
+}
