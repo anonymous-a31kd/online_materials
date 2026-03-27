@@ -62,3 +62,7 @@ code {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
   font-size: 0.95em;
 }
+
+table { border-collapse: collapse; border: 1px solid #d0d7de; }
+th, td { border: 1px solid #d0d7de; padding: 10px 14px; }
+thead { background: #f6f8fa; }
