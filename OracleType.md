@@ -30,6 +30,8 @@ Numbers outside parentheses are **bugs found**, while numbers inside parentheses
 | LLM-Direct       |  18 (38)   |        7 (8)        |        22 (28)        | 46 (77)  |
 | DeepOracle       |  22 (36)   |       13 (19)       |        28 (36)        | 61 (91)  |
 
+These results show that DeepOracle’s advantage is **not limited to one oracle form**; it improves over baselines across all three categories, especially on **assertions** and **expected exceptions**. 
+
 ---
 
 ### Table OM-2
