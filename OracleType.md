@@ -48,7 +48,7 @@ To answer Reviewer A’s question, we compare:
 | Method                 | TP   | FP   | FPR    | Precision | BugFound |
 | ---------------------- | ---- | ---- | ------ | --------- | -------- |
 | (a) LLM Gen Whole Test | 86   | 425  | 16.56% | 17.82%    | 55       |
-| (b) LLM + DeepOracle   | 103  | 418  | 16.25% | 19.77%    | 63       |
+| **(b) LLM + DeepOracle**   | **103**  | 418  | 16.25% | **19.77%**    | **63**       |
 | (c) LLM-Direct         | 92   | 388  | 15.16% | 19.17%    | 57       |
 
 Takeaway. Since (a) and (b) use the same prefixes, the gain of DeepOracle comes from improved oracle synthesis rather than stronger prefixes.
